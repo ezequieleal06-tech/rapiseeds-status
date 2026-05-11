@@ -1,31 +1,51 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: ezequieleal06-tech
+repo: rapiseeds-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: RapiSeeds Web
+    url: https://rapiseeds.com
+  - name: RapiSeeds www
+    url: https://www.rapiseeds.com
+  - name: Supabase API
+    url: https://abpasdyraaihdysvexiw.supabase.co/rest/v1/
+    expectedStatusCodes:
+      - 200
+      - 401
+  - name: n8n Webhooks
+    url: https://n8ntesting.online
+    expectedStatusCodes:
+      - 200
+      - 404
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: ""
+  baseUrl: /rapiseeds-status
+  logoUrl: https://rapiseeds.com/logo-main.webp
+  name: RapiSeeds Status
+  introTitle: "**Estado de RapiSeeds**"
+  introMessage: Monitoreo automatico de uptime. Si la web esta caida, vas a verlo aca.
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/ezequieleal06-tech/rapiseeds-status
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+user:
+  name: RapiSeeds
+  email: ezequielgarcialeal06@gmail.com
+
+assignees:
+  - ezequieleal06-tech
+
+i18n:
+  activeIncidents: Incidentes activos
+  allSystemsOperational: Todos los sistemas operativos
+  incidentReport: "Reporte completo:"
+  noIncidents: Sin incidentes reportados
+  ongoingIncidents: Incidentes en curso
+  pastIncidents: Incidentes anteriores
+  partialOutage: Caida parcial
+  status: Estado
+  url: URL
+  responseTime: Tiempo de respuesta
+  uptime: Uptime
