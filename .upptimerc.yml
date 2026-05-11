@@ -47,3 +47,8 @@ i18n:
   url: URL
   responseTime: Tiempo de respuesta
   uptime: Uptime
+  
+notifications:
+  - type: telegram
+    telegramBotToken: $TELEGRAM_BOT_TOKEN
+    telegramChatId: $TELEGRAM_CHAT_ID
