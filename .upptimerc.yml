@@ -18,8 +18,8 @@ sites:
       - 404
 
 status-website:
-  cname: ""
-  baseUrl: /rapiseeds-status
+  cname: cname: status.rapiseeds.com
+  baseUrl: /
   logoUrl: https://rapiseeds.com/logo-main.webp
   name: RapiSeeds Status
   introTitle: "**Estado de RapiSeeds**"
