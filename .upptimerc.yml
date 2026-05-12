@@ -49,6 +49,5 @@ i18n:
   uptime: Uptime
   
 notifications:
-  - type: telegram
-    telegramBotToken: $TELEGRAM_BOT_TOKEN
-    telegramChatId: $TELEGRAM_CHAT_ID
+  - type: webhook
+    webhookUrl: $UPTIME_WEBHOOK_URL
