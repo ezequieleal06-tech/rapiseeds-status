@@ -22,18 +22,20 @@
     "url": "https://www.rapiseeds.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.rapiseeds.com.ico",
     "slug": "rapi-seeds-www",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 257,
-    "timeDay": 474,
-    "timeWeek": 243,
-    "timeMonth": 257,
-    "timeYear": 257,
-    "dailyMinutesDown": {}
+    "time": 448,
+    "timeDay": 1799,
+    "timeWeek": 603,
+    "timeMonth": 448,
+    "timeYear": 448,
+    "dailyMinutesDown": {
+      "2026-05-19": 0
+    }
   },
   {
     "name": "Supabase API",
