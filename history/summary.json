@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 465,
-    "timeDay": 337,
-    "timeWeek": 517,
-    "timeMonth": 483,
-    "timeYear": 465,
+    "time": 463,
+    "timeDay": 391,
+    "timeWeek": 528,
+    "timeMonth": 475,
+    "timeYear": 463,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.rapiseeds.com.ico",
     "slug": "rapi-seeds-www",
     "status": "up",
-    "uptime": "99.87%",
+    "uptime": "99.88%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.85%",
-    "uptimeYear": "99.87%",
-    "time": 345,
-    "timeDay": 153,
-    "timeWeek": 227,
-    "timeMonth": 380,
-    "timeYear": 345,
+    "uptimeYear": "99.88%",
+    "time": 344,
+    "timeDay": 274,
+    "timeWeek": 243,
+    "timeMonth": 381,
+    "timeYear": 344,
     "dailyMinutesDown": {
       "2026-05-19": 66
     }
@@ -49,8 +49,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 148,
-    "timeDay": 145,
-    "timeWeek": 134,
+    "timeDay": 165,
+    "timeWeek": 138,
     "timeMonth": 149,
     "timeYear": 148,
     "dailyMinutesDown": {}
@@ -66,11 +66,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 181,
-    "timeDay": 333,
-    "timeWeek": 238,
-    "timeMonth": 190,
-    "timeYear": 181,
+    "time": 179,
+    "timeDay": 120,
+    "timeWeek": 241,
+    "timeMonth": 188,
+    "timeYear": 179,
     "dailyMinutesDown": {}
   }
 ]
