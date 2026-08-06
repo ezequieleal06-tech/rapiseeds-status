@@ -8,7 +8,18 @@ repo: rapiseeds-status
 # alguna quedaba encolada hasta que la cancelaban (mail "All jobs were cancelled").
 # Pidiendo cada 15 minutos GitHub la deja pasar y los chequeos salen parejos.
 workflowSchedule:
+  # El chequeo del sitio: lo unico que importa que corra seguido.
   uptime: "*/15 * * * *"
+  # Los demas son cosmeticos (graficos, README, deps) y ANTES corrian todos los
+  # dias. Todos los procesos de Upptime comparten UNA sola fila de espera, asi
+  # que mientras uno de estos corre (tardan 10-13 min), el chequeo queda encolado
+  # y si entra un tercero lo cancelan -> mail "All jobs were cancelled".
+  # Pasandolos a semanal, el chequeo casi nunca se topa con ellos.
+  graphs: "0 3 * * 1"
+  summary: "0 2 * * 1"
+  updates: "0 5 * * 1"
+  responseTime: "0 23 * * 1"
+  staticSite: "0 4 * * 1"
 
 sites:
   - name: RapiSeeds Web
