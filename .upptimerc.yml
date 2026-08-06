@@ -1,6 +1,15 @@
 owner: ezequieleal06-tech
 repo: rapiseeds-status
 
+# Cada cuanto corre cada tarea.
+# El default de Upptime es revisar cada 5 minutos, pero GitHub recorta las tareas
+# programadas de las cuentas gratuitas cuando hay carga, y las que piden cada 5
+# minutos son las primeras que saltea: en la practica corria cada 2 o 3 horas y
+# alguna quedaba encolada hasta que la cancelaban (mail "All jobs were cancelled").
+# Pidiendo cada 15 minutos GitHub la deja pasar y los chequeos salen parejos.
+workflowSchedule:
+  uptime: "*/15 * * * *"
+
 sites:
   - name: RapiSeeds Web
     url: https://rapiseeds.com
@@ -47,7 +56,7 @@ i18n:
   url: URL
   responseTime: Tiempo de respuesta
   uptime: Uptime
-  
+
 notifications:
   - type: webhook
     webhookUrl: $UPTIME_WEBHOOK_URL
